@@ -1,0 +1,8 @@
+package org.cibertec.edu.pe.service;
+
+import org.cibertec.edu.pe.modelo.Producto;
+
+public interface ProductoService {
+
+	public Producto save
+}

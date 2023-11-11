@@ -1,0 +1,8 @@
+package org.cibertec.edu.pe.service;
+
+public class Snippet {
+	public static void main(String[] args) {
+		th:href="@{productos/edit/{id} (id=${producto.id})}"
+	}
+}
+

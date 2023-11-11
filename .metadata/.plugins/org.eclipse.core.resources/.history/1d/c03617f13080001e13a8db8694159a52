@@ -1,0 +1,13 @@
+package org.cibertec.edu.pe.service;
+
+import java.util.Optional;
+
+import org.cibertec.edu.pe.modelo.Producto;
+
+public interface ProductoService {
+
+	public Producto save(Producto producto);
+	public Optional<Producto> get(Integer id);
+	public void update(Producto producto);
+	public void delete(Integer id)
+}
